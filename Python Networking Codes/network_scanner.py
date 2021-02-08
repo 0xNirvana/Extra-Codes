@@ -48,3 +48,4 @@ print_list(details)
 #.ARP is used to create an IP based broadcast packet and .Ether is used to create a MAC based broadcast packet
 #.srp is for Send Receive Packet
 #print elemet would print both the sent and received packet
+# scapy.ls(function) can be used to see what options does that fuction provide eg. scapy.ls(ARP()) or scapy.ls(Ether())
